@@ -1,0 +1,100 @@
+.about__content {
+    width: 1170px;
+    height: 665px;
+    /*border: 5px solid black;*/
+    margin: 0 auto;
+
+}
+
+    .about__header {
+    width: 1170px;
+    height: 282px;
+    /*border: 1px solid green;*/
+    display: table-cell;
+    vertical-align: middle;
+    
+    }
+
+    .about__title {
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+       /*align-items: center;*/
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .about__line {
+
+        width: 170px;
+        height: 1px;
+        left: 50%;
+        /*border: 1px solid #EC7979;*/
+        background-color: #EC7979;
+        margin: 0px 0px 0px 500px;
+    }
+
+    .about__subtitle {
+        text-align: center;
+    }
+
+.about__row {
+
+    width: 1170px;
+    height: 383px;
+    /*border: 5px solid pink;*/
+    align-items: center;
+}
+    
+    .about__column {
+
+        display: inline-block; /*Задаем блочно-строчное отображение*/
+            width: 370px; /*задаем ширину блока*/
+            height: 383px;
+        /*background: dodgerblue;*/
+        text-align: center;
+        justify-content:space-between
+            }
+
+        .about__icon1 {
+
+            width: 100px;
+            height: 100px;
+            border: 5px solid red;
+            border-radius: 100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+           
+        }   
+    
+        .about__icon2 {
+
+            width: 100px;
+            height: 100px;
+            border: 5px solid red;
+            border-radius: 100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+           
+        }
+
+        .about__icon3 {
+
+            width: 100px;
+            height: 100px;
+            border: 5px solid red;
+            border-radius: 100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+           
+        }
