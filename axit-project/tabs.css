@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+
+    max-width: 1170px;
+}
+
+.tabs__wrapper {
+
+    height: 540px;
+    margin: 99px 0 50px 0;
+}
+
+.tabs__list {
+
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tab__list-tab {
+    
+    width: 184px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab__list-tab button {
+
+    border: 1px solid white;
+    background-color: white;
+}
+
+.tab__list-tab_aktiv:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-bottom: 1px solid white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab__list-tab button {
+
+    width: 70px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab__list-tab button h4 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tabs__body {
+
+   width: 1170px;
+   height: 501px;
+   display: flex;
+   flex-direction: row;
+   border: 1px solid #C6CBCD;
+}
+
+.tabs__content {
+
+    padding: 0 30px 0 100px;
+    align-items: center;
+    width: 700px;
+}
+
+.tabs__content-title {
+
+    width: 570px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs__content-title h3 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin: 41.5px 0;
+}
+
+.tabs__content-description  {
+
+    width: 570px;
+    height: 210px;
+    margin: 27px 0;
+}
+
+.tabs__content-description h5 {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tabs__content-button button {
+
+    width: 270px;
+    height: 58px;
+    border: 2px solid white;
+    background-color: #EC7979;
+    margin: 0 300px 54px 0;
+}
+
+.tabs__content-button button:hover {
+
+    background-color:#ce5656;
+}
+
+.tabs__content-button h4 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
