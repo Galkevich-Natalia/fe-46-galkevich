@@ -13,7 +13,7 @@ body {
 
 .tabs__wrapper {
 
-    height: 540px;
+    height: 540px;/* Зачем? */
     margin: 99px 0 50px 0;
 }
 
@@ -21,7 +21,7 @@ body {
 
     height: 39px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;/* Зачем? */
 }
 
 .tab__list-tab {
@@ -71,10 +71,10 @@ body {
 
 .tabs__body {
 
-   width: 1170px;
-   height: 501px;
+   width: 1170px;/* Зачем? */
+   height: 501px;/* Зачем? */
    display: flex;
-   flex-direction: row;
+   flex-direction: row;/* Зачем? */
    border: 1px solid #C6CBCD;
 }
 
@@ -88,7 +88,7 @@ body {
 .tabs__content-title {
 
     width: 570px;
-    height: 124px;
+    height: 124px;/* Зачем? */
     display: flex;
     align-items: center;
 }
@@ -107,7 +107,7 @@ body {
 .tabs__content-description  {
 
     width: 570px;
-    height: 210px;
+    height: 210px;/* Зачем? */
     margin: 27px 0;
 }
 

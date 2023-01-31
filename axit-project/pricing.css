@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
 
 body {
-
+    /* Выбери один основной шрифт */
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-
+    /* Контейнер определён в другом файле стилей */
     max-width: 1170px;
     padding: 50px 0 20px 0;
     margin: 0 auto;
@@ -91,7 +91,7 @@ body {
 
 .card__tariff {
 
-    width: 370px;
+    width: 370px;/* Зачем? */
     height: 60px;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@ body {
 
 .card__price {
 
-    width: 370px;
+    width: 370px;/* Зачем? */
     height: 100px;
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ body {
 
 .card__time {
 
-    width: 370px;
+    width: 370px;/* Зачем? */
     height: 50px;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ body {
 
 .point {
 
-    width: 370px;
+    width: 370px;/* Зачем? */
     height: 50px;
     display: flex;
     align-items: center;

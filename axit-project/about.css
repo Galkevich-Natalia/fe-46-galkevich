@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
 
 body {
-
+    /* Выбери один основной шрифт */
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
