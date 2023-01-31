@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
 
 .container {
+
     max-width: 1170px;
     margin: 0 auto;
 }
 
 .about__header {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,34 +22,50 @@
 }
 
 .about__title {
+
     padding: 57px 0;
 }
 
 .about__title h2 {
-    font-size: 36px;
+
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 400;
-    line-height: 42.26px;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #000000;
 }
 
 hr {
+
     width: 170px;
     margin: 0 auto;
     border: 1px solid #EC7979;
 }
 
 .about__subtitle {
+
     padding: 40px 0;
 }
 
 .about__subtitle h5 {
+
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #86878B;
 }
 
 .about__cards {
+
     display: flex;
     padding: 30px 0 30px 0;
     justify-content: space-between;
@@ -48,6 +73,7 @@ hr {
 }
 
 .about__card {
+
     width: 370px;
     display: flex;
     flex-direction: column;
@@ -57,11 +83,13 @@ hr {
 }
 
 .card__icon {
+
     margin: 0 auto;
     padding: 39px 0;
 }
 
 .card__icon-border {
+
     width: 92px;
     height: 92px;
     display:flex;
@@ -72,23 +100,38 @@ hr {
 }
 
 .card__title {
+
     padding: 38px 0;
 }
 
 .card__title h4 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
     color: #000000;
 }
 
 .card__text {
+
     padding: 8px 0;
 }
 
 .card__text h5 {
+
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #000000;
 }
