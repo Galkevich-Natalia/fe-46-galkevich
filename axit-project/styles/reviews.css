@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.reviews__wrapper {
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.reviews__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.reviews__title {
+    padding: 57px 0;
+}
+
+.reviews__title h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.divider {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    border: 1px solid #EC7979;
+}
+
+.reviews__description {
+    padding: 40px 0;
+}
+
+.reviews__description h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.reviews__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0 14px 0;
+}
+
+.review__card {
+    width: 370px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__opinion {
+    height: 180px;
+    padding: 38px 0;
+    text-align: center;
+    background: #E2E2E2;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+}
+
+.card__triangle {
+    padding: 0 270px 0 70px;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid  #E2E2E2;
+} 
+
+.card__opinion h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.card__user {
+    height: 136px;
+    padding-top: 46px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card__user-avatar {
+    padding: 0 30px 20px 0;
+}
+
+.card__user-avatar img {
+    width: 70px;
+    height: 70px;
+}
+.card__user-info {
+    text-align: left;    
+}
+
+.card__user-name {
+    padding: 10px 0;
+}
+
+.card__user-name h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.card__user-profession {
+    width: 270px;
+    height: 21px;
+    padding-top: 15px;
+}
+
+.card__user-profession h5 {
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}

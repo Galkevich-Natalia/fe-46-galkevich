@@ -108,6 +108,7 @@ body {
 
 .tabs__content-btn button:hover {
     background-color:#ce5656;
+    cursor: pointer;
 }
 
 .tabs__content-btn button{
