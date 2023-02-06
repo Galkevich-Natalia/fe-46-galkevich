@@ -25,7 +25,7 @@ body {
     justify-content: center;
 }
 
-.tab button {
+.tab_aktiv button {
     border: 1px solid white;
     background-color: white;
 }
@@ -38,7 +38,7 @@ body {
     width: 203px;
     height: 40px;
     border: 1px solid #C6CBCD;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -48,9 +48,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.tab button h4 {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
