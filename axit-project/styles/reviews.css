@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
 
 .reviews__wrapper {
-    max-width: 1170px;
     margin: 50px auto;
 }
 
@@ -54,11 +48,26 @@ body {
     padding: 43px 0 14px 0;
 }
 
-.review__card {
+.reviews__card {
     width: 370px;
     height: 336px;
     display: flex;
     flex-direction: column;
+}
+
+.card__message {
+    position: relative;
+}
+
+.card__message::after {
+    content: '';
+    width: 0px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid  #E2E2E2;
+    position: absolute;
+    left: 70px;
 }
 
 .card__opinion {
@@ -67,22 +76,9 @@ body {
     text-align: center;
     background: #E2E2E2;
     border-radius: 10px;
-    position: relative;
     border: none;
 }
-
-.card__triangle {
-    padding: 0 270px 0 70px;
-}
-
-.triangle {
-	width: 0px;
-	height: 0px;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 20px solid  #E2E2E2;
-} 
-
+    
 .card__opinion h5 {
     font-style: normal;
     font-weight: 400;
