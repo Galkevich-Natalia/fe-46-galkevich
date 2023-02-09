@@ -1,18 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
-
-body {
-	font-family: 'Raleway', sans-serif;
-}
 
 .banner-bottom {
 	background: rgba(0, 0, 0, 0.5) url(/axit-project/images/banner_2.png);
 	background-size: cover;
 	background-blend-mode: darken;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
 }
 
 .banner-bottom__wrapper {
@@ -34,10 +24,10 @@ body {
 	color: #FFFFFF;
 }
 
-.divider {
+.banner-bottom__divider {
     display: block;
     width: 170px;
-	border: 1px solid #EC7979;
+	border: 1px solid #FFFFFF;
 }
 
 .banner-bottom__description {
@@ -65,26 +55,9 @@ body {
     line-height: 25px;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-    
 }
 
 .banner-bottom__btn button:hover {
 	background-color: rgba(208, 203, 203, 0.5);
 	font-size: 19px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
