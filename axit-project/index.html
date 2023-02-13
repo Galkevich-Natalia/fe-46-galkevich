@@ -14,17 +14,17 @@
                 <div class="tabs__list">
                     <div class="tab">
                         <div class="tab_aktiv">
-                            <button>TAB 1</button>
+                            <button type="button">TAB 1</button>
                         </div>
                     </div>
                     <div class="tab">
                         <div class="tab_aktiv">
-                            <button>TAB 2</button>
+                            <button type="button">TAB 2</button>
                         </div>
                     </div>
                     <div class="tab">
                         <div class="tab_aktiv">
-                            <button>TAB 3</button>
+                            <button type="button">TAB 3</button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                                 bibendum laoreet.</h5>
                         </div>
                         <div class="tabs__content-btn">
-                            <button>Download</button>
+                            <button type="button">Download</button>
                         </div>
                     </div>
                     <div class="tabs__img">
@@ -59,7 +59,7 @@
                     <div class="about__title">
                     <h2>WHY THIS IS AWESOME</h2>
                     </div>
-                    <hr>
+                    <span class="divider"></span>
                     <div class="about__subtitle">
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                     </div>
@@ -123,8 +123,8 @@
                         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                     </div>
                 </div>
-                <div class="prising__cards">
-                    <div class="card">
+                <div class="pricing__cards">
+                    <div class="pricing__card">
                         <div class="card__header">
                             <div class="card__tariff"> 
                                 <h4>Basic</h4>
@@ -145,7 +145,7 @@
                             <li>1 Gb Of Space</li>
                         </ul>
                     </div>    
-                    <div class="card">
+                    <div class="pricing__card">
                         <div class="card__header">
                             <div class="card__tariff"> 
                                 <h4>Optima</h4>
@@ -166,7 +166,7 @@
                             <li>2 Gb Of Space</li>
                         </ul>
                     </div>    
-                    <div class="card">
+                    <div class="pricing__card">
                         <div class="card__header">
                              <div class="card__tariff"> 
                                 <h4>Pro</h4>
@@ -201,27 +201,21 @@
 				<div class="contact__description">
 					<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
 				</div>
-                <div class="contact__body">
-                    <div class="contact__data">
-                        <div class="name">
-                            <input  type="text" placeholder="Name">
-                        </div>
-                        <div class="email">
-                            <input  type="email" placeholder="E-mail">
-                        </div>
-                        <div class="password">
+                <form class="contact__body">
+                    <div class="contact__form">
+                        <div class="contact__data">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="E-mail">
                             <input type="password" placeholder="Password">
                         </div>
-                    </div>
-                    <div class="contact__message">
-                        <div class="message">
+                        <div class="contact__message">    
                             <input type="text" placeholder="Message">
                         </div>    
+                    </div>    
+                    <div class="contact__btn">
+                        <button type="submit">Send Message</button>
                     </div>
-                </div>
-				<div class="contact__btn">
-					<button>Send Message</button>
-				</div>
+                </form>    
 			</div>
 		</div>
 	</section>
