@@ -1,0 +1,106 @@
+
+.contact__wrapper {
+	padding: 50px 0 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.contact__title {
+	padding: 57px 0;
+}
+
+.contact__title h2 {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.divider {
+    display: block;
+    width: 170px;
+    border: 1px solid #EC7979;
+}
+
+.contact__description {
+	padding: 40px 0 36px 0;
+}
+
+.contact__description h5 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #86878B;
+}
+
+.contact__form {
+	display: flex;
+}
+
+.contact__data {
+	flex-direction: column;
+	padding-right: 30px;
+}
+
+.contact__data input {
+	width: 571px;
+	height: 19px;
+	padding: 69px 0 16px 0;
+	align-items: flex-end; 
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	background-color: transparent;
+	color: inherit;
+	outline: none;
+}
+
+.contact__data input::placeholder {
+	align-items: flex-end;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #BDBDBD;
+}
+
+.contact__message input {
+	width: 569px;
+	height: 19px;
+	padding: 69px 0 188px 0;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	background-color: transparent;
+	color: inherit;
+	outline: none;
+	align-items: flex-start;
+}
+
+.contact__message input::placeholder {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #BDBDBD;
+}
+
+.contact__btn {
+	padding: 50px 0;
+}
+
+.contact__btn button {
+	width: 370px;
+    height: 58px;
+	background-color: #EC7979;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+	color: #FFFFFF;
+    border: none;
+}
+
+.contact__btn button:hover {
+	background-color:#ce5656;
+}

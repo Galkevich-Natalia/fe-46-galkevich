@@ -1,4 +1,5 @@
 @import url(./styles/reset.css);
+@import url(./styles/common.css);
 @import url(./styles/header.css);
 @import url(./styles/banner-main.css);
 @import url(./styles/social.css);
@@ -7,4 +8,5 @@
 @import url(./styles/pricing.css);
 @import url(./styles/reviews.css);
 @import url(./styles/banner_2.css);
+@import url(./styles/contact.css);
 @import url(./styles/footer.css);
