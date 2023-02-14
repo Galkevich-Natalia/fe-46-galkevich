@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.social {
+    height: 140px;
+    background-color: #F8EFEF;
+}
+
+.social__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.social__text {
+    text-align: start;
+}
+
+.social__title {
+    width: 470px;
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.social__title h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.social__description {  
+    width: 470px;
+}
+
+.social__description h5 {
+    padding: 14px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.social-logos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.social-logos a {
+    margin: 0 23px;
+}
+
+.social-logos a:hover {
+    box-shadow: 0px 1px 2px 0px rgba(236, 121, 121, 0.7),
+                1px 2px 4px 0px rgba(236, 121, 121, 0.7),
+                2px 4px 8px 0px rgba(236, 121, 121, 0.7),
+                2px 4px 16px 0px rgba(236, 121, 121, 0.7);
+} 
