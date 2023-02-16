@@ -12,14 +12,14 @@
 }
 
 .about__title {
-    padding: 57px 0;
+    padding: 54px 0 53px 0;
 }
 
 .about__title h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 42.26px;
     color: #000000;
 }
 
@@ -27,11 +27,11 @@
     display: block;
     width: 170px;
     margin: 0 auto;
-	border: 1px solid #EC7979;
+	border: 0.5 px solid #EC7979;
 }
 
 .about__subtitle {
-    padding: 40px 0;
+    padding: 39px 0 40px 0;
 }
 
 .about__subtitle h5 {
@@ -59,7 +59,7 @@
 
 .card__icon {
     margin: 0 auto;
-    padding: 39px 0;
+    padding: 40px 0 39px 0;
 }
 
 .card__icon-border {
@@ -73,7 +73,7 @@
 }
 
 .card__title {
-    padding: 38px 0;
+    padding: 33.5px 0;
 }
 
 .card__title h4 {
@@ -87,10 +87,12 @@
 }
 
 .card__text {
-    padding: 8px 0;
+    padding: 8px 10px 0 10px;
+
 }
 
 .card__text h5 {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

@@ -8,7 +8,7 @@
 }
 
 .contact__title {
-	padding: 57px 0;
+	padding: 54px 0 53px 0;
 }
 
 .contact__title h2 {
@@ -25,7 +25,7 @@
 }
 
 .contact__description {
-	padding: 40px 0 36px 0;
+	padding: 40px 0 40px 0;
 }
 
 .contact__description h5 {
@@ -86,7 +86,7 @@
 }
 
 .contact__btn {
-	padding: 50px 0;
+	padding: 50px 0 30px 0;
 }
 
 .contact__btn button {

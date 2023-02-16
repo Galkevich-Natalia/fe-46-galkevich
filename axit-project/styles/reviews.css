@@ -12,14 +12,14 @@
 }
 
 .reviews__title {
-    padding: 57px 0;
+    padding: 54px 0 53px 0;
 }
 
 .reviews__title h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 42.26px;
     color: #000000;
     text-transform: uppercase;
 }
@@ -32,7 +32,7 @@
 }
 
 .reviews__description {
-    padding: 40px 0;
+    padding: 39px 0 40px 0;
 }
 
 .reviews__description h5 {
@@ -72,7 +72,7 @@
 
 .card__opinion {
     height: 180px;
-    padding: 38px 0;
+    padding: 38px 20px 37px 20px;
     text-align: center;
     background: #E2E2E2;
     border-radius: 10px;
@@ -89,7 +89,7 @@
 
 .card__user {
     height: 136px;
-    padding-top: 46px;
+    padding-top: 66px;
     display: flex;
     flex-direction: row;
 }
