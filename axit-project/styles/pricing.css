@@ -4,7 +4,7 @@
 }
 
 .pricing__wrapper {
-    padding: 50px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 .pricing__header {
@@ -16,7 +16,7 @@
 }
 
 .pricing__title {
-    padding: 54px 0 53px 0;
+    padding: 104px 0 53px 0;
 }
 
 .pricing__title h2 {

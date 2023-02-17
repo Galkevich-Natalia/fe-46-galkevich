@@ -1,6 +1,6 @@
 
 .about__wrapper {
-    padding: 25px 0 28px 0;
+    padding-bottom: 28px;
     display: flex;
     flex-direction: column;
 }
@@ -12,7 +12,7 @@
 }
 
 .about__title {
-    padding: 54px 0 53px 0;
+    padding: 104px 0 53px 0;
 }
 
 .about__title h2 {

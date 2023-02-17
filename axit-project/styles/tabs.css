@@ -1,6 +1,6 @@
 
 .tabs__wrapper {
-    padding: 98px 0 25px 0;
+    padding-top: 98px;
 }
 
 .tabs__list {
@@ -52,7 +52,7 @@
 }
 
 .tabs__content {
-    padding: 0 0 0 100px;
+    padding-left: 100px;
     align-items: center;
     width: 700px;
 }
@@ -65,7 +65,7 @@
 }
 
 .tabs__content-title h3 {
-    /*font-family: 'Open Sans';*/
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -80,7 +80,6 @@
 }
 
 .tabs__content-description h5 {
-    /*font-family: 'Raleway';*/
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -94,7 +93,6 @@
     height: 58px;
     border: 2px solid white;
     background-color: #EC7979;
-    /*margin: 0 300px 54px 0;*/
 }
 
 .tabs__content-btn button:hover {
