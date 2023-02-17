@@ -22,14 +22,6 @@
     display: flex;
 }
 
-.banner-main__logo img {
-    padding: 22.5px 0;
-}
-
-.banner-main__logo .banner-main__logo-AX {
-    padding-right: 5px;
-}
-
 .banner-main__title {
     padding: 50px 0 55px 0;
 }
