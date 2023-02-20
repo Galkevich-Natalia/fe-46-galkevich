@@ -116,3 +116,48 @@
 .tabs__img {
     display: flex;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .tabs__wrapper {
+        padding-top: 49px;
+    }
+
+    .tab {
+        width: 156px;
+        height: 40px;
+    }
+
+    .tab_aktiv:hover {
+        width: 172px;
+        height: 40px;
+    }
+
+    .tabs__content {
+        padding-left: 84.68px;
+        align-items: center;
+    }
+    
+    .tabs__content-title h3 {
+        font-size: 24px;
+        line-height: 32.68px;
+        margin: 28px 0;
+    }
+    .tabs__content-description  {
+        margin: 38px 0;
+    }
+    .tabs__content-description h5 {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    .tabs__content-btn button {
+        width: 231.87px;
+        height: 58px;
+    }
+    .tabs__img {
+        display: flex;
+        align-items: end;
+        width: 398.21px;
+        height: 385px;
+     }
+}     
