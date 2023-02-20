@@ -5,11 +5,6 @@
     background-blend-mode: darken;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}  
-
 .banner-main__wrapper {
     padding: 208px 0 185px 0; 
     display: flex;
@@ -24,17 +19,7 @@
 }
 
 .banner-main__logo {
-    width: 270px;
-}
-
-.banner-main__logo h2 {
-    font-size: 80px;
-    color: #EC7979;
-    padding: 18px 0;
-}
-
-.banner-main__logo h2 span {
-    color: #FFFFFF;
+    display: flex;
 }
 
 .banner-main__title {
@@ -73,7 +58,7 @@
 }
 
 .banner-main__content button {
-	width: 370px;
+	width: 270px;
     height: 58px;
 	background-color: rgba(28,28,28,0);
     cursor: pointer;
@@ -89,8 +74,8 @@
 	font-size: 19px;
 }
 
-form {
-   width: 470px;
+.banner-main__form {
+    width: 470px;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -101,12 +86,12 @@ form {
     position: relative;
 }
 
-.free {
+.banner-main__form .free {
     color: #EC7979;
     margin: 0 7px;
 }
 
-h3 {
+form h4 {
     margin: 28px 0 40px 0;
     font-family: 'Open Sans';
     font-weight: 700;
@@ -141,16 +126,21 @@ input::placeholder {
     align-items: center;
 }
 
- form button {
+.banner-main__form-btn {
     margin-top: 75px;
     width: 470px;
     height: 66px;
     background-color: #EC7979;
-    cursor: pointer;
+    font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 20px;
     color: #FFFFFF;
     border: none;
     border-radius: 0 0 10px 10px;
 }    
+
+.banner-main__form-btn:hover {
+	background-color:#ce5656;
+    cursor: pointer;
+}
