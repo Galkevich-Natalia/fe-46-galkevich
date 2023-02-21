@@ -1,9 +1,4 @@
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .social {
     height: 140px;
     background-color: #F8EFEF;
@@ -64,3 +59,36 @@
                 2px 4px 8px 0px rgba(236, 121, 121, 0.7),
                 2px 4px 16px 0px rgba(236, 121, 121, 0.7);
 } 
+
+
+@media screen and (max-width: 1024px) {
+    .social {
+        height: 105px;
+    }
+
+    .social__title {
+        width: 402px;
+        padding: 10px 0;
+    }
+
+    .social__title h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .social__description {  
+        width: 402px;
+    }
+
+    .social__description h5 {
+        padding: 13px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.44px;
+        color: #86878B;
+    }
+
+    .social-logos a {
+        margin: 0 23px;
+    }
+}
