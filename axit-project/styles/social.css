@@ -1,9 +1,4 @@
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .social {
     height: 140px;
     background-color: #F8EFEF;
@@ -55,7 +50,9 @@
 }
 
 .social-logos a {
-    margin: 0 23px;
+    width: 70px;
+    height: 70px;
+    margin-right: 35px;
 }
 
 .social-logos a:hover {

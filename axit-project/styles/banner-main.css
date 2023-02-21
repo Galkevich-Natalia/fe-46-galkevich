@@ -5,6 +5,11 @@
     background-blend-mode: darken;
 }
 
+.banner-main__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .banner-main__wrapper {
     padding: 208px 0 185px 0; 
     display: flex;
@@ -143,4 +148,69 @@ input::placeholder {
 .banner-main__form-btn:hover {
 	background-color:#ce5656;
     cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+
+    .banner-main__container {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+
+    .banner-main__wrapper {
+        padding: 84.12px 0 50px 0; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-main__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .banner-main__logo {
+        display: none;
+    }
+
+    .banner-main__title {
+        padding: 0 0 43.88px 0;
+    }
+
+    .banner-main__title h1 {
+        max-width: 288px;
+        max-height: 168px;
+        font-size: 33px; /* должно быть 36px, но с ними отображается неправильно */
+        line-height: 42px;
+    }
+
+    .banner-main__divider {
+        width: 134px;
+    }
+
+    .banner-main__description {
+        padding: 42px 0;
+    }
+
+    .banner-main__description h5 {
+        /*width: 270px;
+        height: 42px;*/
+        display: flex;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .banner-main__btn {
+        width: 288px;
+        height: 50px;
+        /*padding-bottom: 56px;*/
+    }
+
+    form .banner-main__form {
+        width: 288px;
+        height: 381x;
+        
+    }
 }
