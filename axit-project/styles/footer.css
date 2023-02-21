@@ -34,7 +34,7 @@
 } 
 
 .footer-text {
-    padding: 28px 0 27px 0;
+    padding: 27.8px 0 27px 0;
 }
 
 .footer-text p {
@@ -42,4 +42,24 @@
     font-size: 18px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .footer-logos a {
+        width: 45px;
+        height: 45px;
+        margin-right: 33px;
+        color: #CCCCCC;
+    }
+
+    .footer-text {
+        padding: 38px 0 30px 0;
+    }
+    
+    .footer-text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

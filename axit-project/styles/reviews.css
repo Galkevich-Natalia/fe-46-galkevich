@@ -88,7 +88,7 @@
 }
 
 .card__user {
-    height: 136px;
+    height: 156px;
     padding-top: 66px;
     display: flex;
     flex-direction: row;
@@ -131,4 +131,83 @@
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .reviews__title {
+        padding: 96px 0 46px 0;;
+    }
+
+    .reviews__title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .divider {
+        width: 142px;
+    }
+
+    .reviews__description {
+        padding: 32px 0 16px 0;
+    }
+    
+    .reviews__description h5 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .reviews__cards {
+        padding: 16px 0 9px 0;
+    }
+
+    .reviews__card {
+        width: 317px;
+        height: 309px;
+    }
+
+    .card__opinion {
+        height: 180px;
+        padding: 50px 20px;
+    }
+
+    .card__opinion h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .card__user {
+        height: 129px;
+        padding-top: 66px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card__user-avatar {
+        padding: 0 22.54px 0 0;
+    }
+    
+    .card__user-avatar img {
+        min-width: 63px;
+        min-height: 63px;
+    }
+
+    .card__user-name {
+        padding: 5.5px 0;
+    }
+
+    .card__user-name h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .card__user-profession {
+        max-width: 230.45px;
+        padding-top: 9px;
+    }
+
+    .card__user-profession h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

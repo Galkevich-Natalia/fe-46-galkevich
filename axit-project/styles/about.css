@@ -98,3 +98,84 @@
     line-height: 21px;
     color: #000000;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .about__wrapper {
+        padding-bottom: 68px;
+    }
+
+    .about__title {
+        padding: 96px 0 46px 0;
+    }
+
+    .about__title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .divider {
+        width: 142px;
+    }
+
+    .about__subtitle {
+        padding: 31px 0 32px 0;
+    }
+
+    .about__subtitle h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .about__cards {
+        padding: 0 0 0 38px;
+    }
+
+    .about__card {
+        width: 318px;
+    }
+
+    .card__icon {
+        margin: 0 auto;
+        padding: 33.72px 0;
+    }
+
+    .card__icon-border-lightbulb  {
+        width: 56.46px;
+        height: 56.46px;
+    }
+
+    .card__icon-border-keyboard {
+        width: 57.07px;
+        height: 39.78;
+    }
+
+    .card__icon-border-lightning {
+        width: 38.05px;
+        height: 57.07px;
+    }
+
+    .card__icon-border {
+        width: 79.55px;
+        height: 79.55px;
+    }
+
+    .card__title {
+        padding: 28.5px 0;
+    }
+
+    .card__title h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .card__text {
+        padding: 9px 10px 0 10px;
+
+    }
+
+    .card__text h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
