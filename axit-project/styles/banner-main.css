@@ -13,7 +13,6 @@
 .banner-main__wrapper {
     padding: 208px 0 185px 0; 
     display: flex;
-    /*justify-content: space-between;*/
 }
 
 .banner-main__content {
@@ -182,6 +181,36 @@ input::placeholder {
         max-width: 288px;
         max-height: 168px;
         font-size: 33px; /* должно быть 36px, но с ними отображается неправильно */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-main__container {
+        max-width: 888.72px;
+        margin: 0 20px 0 115.28px;
+    }
+
+    .banner-main__wrapper {
+        padding: 137.15px 0 106px 0; 
+        display: flex;
+    }
+
+    .banner-main__content {
+        padding-right: 36.36px;
+    }
+
+    .banner-main__logo {
+        width: 183.1px;
+        height: 74.85px;
+        display: flex;
+    }
+
+    .banner-main__title {
+        padding: 37.61px 0 41.49px 0;
+    }
+
+    .banner-main__title h1 {
+        font-size: 36px;
         line-height: 42px;
     }
 
@@ -212,5 +241,41 @@ input::placeholder {
         width: 288px;
         height: 381x;
         
+        width: 115.28px;
+    }
+
+    .banner-main__description {
+        padding: 31px 0 31.32px 0;
+    }
+
+    .banner-main__description h5 {
+        width: 183.1px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .banner-main__content button {
+        width: 183.1px;
+        height: 50px;
+    }
+
+    .banner-main__form { 
+        width: 398px;
+    }
+
+    .banner-main__form h4 {
+        margin: 28px 0 40px 0;
+        font-size: 18px;
+        line-height: 24.51px;
+    }
+
+    .banner-main__form input {
+        width: 298px;
+    }
+
+    .banner-main__form-btn { 
+        width: 398px;
+        height: 74px;
     }
 }

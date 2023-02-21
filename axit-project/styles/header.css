@@ -59,3 +59,16 @@
         max-width: 288px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+    .header__container {
+        max-width: 888.72px;
+        margin: 0 20px 0 115.28px;
+    }
+
+    .header__nav {
+        max-width: 566px;
+        margin-right: 0;
+    }
+}
