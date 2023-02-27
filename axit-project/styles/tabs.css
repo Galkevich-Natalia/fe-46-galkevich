@@ -68,7 +68,7 @@
 
 .tabs__content-description  {
     width: 100%;
-    margin: 27px 0;
+    padding: 27px 0;
 }
 
 .tabs__content-description h5 {
@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 1024px) {
     .tabs__wrapper {
-        padding-top: 49px;
+        padding-top: 41px;
     }
 
     .tab {
@@ -130,17 +130,16 @@
     }
 
     .tabs__content {
-        padding-left: 84.68px;
-        align-items: center;
+        padding: 0 26.21px 0 84.68px;
     }
-    
+
     .tabs__content-title h3 {
         font-size: 24px;
         line-height: 32.68px;
         margin: 28px 0;
     }
     .tabs__content-description  {
-        margin: 38px 0;
+        padding: 38px 0;
     }
     .tabs__content-description h5 {
         font-size: 14px;
@@ -150,10 +149,49 @@
         width: 231.87px;
         height: 58px;
     }
-    .tabs__img {
+}    
+
+@media screen and (max-width: 320px) {
+
+    .tabs__content {
         display: flex;
-        align-items: end;
-        width: 398.21px;
-        height: 385px;
-     }
-}     
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        padding: 0 0 0 0;
+    }
+    
+    .tabs__content-title h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 31px 22.63px;
+    }
+
+    .tabs__content-description {
+        max-width: 242.74px;
+        padding: 29px 0;
+    }
+
+    .tabs__content-description h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .tabs__content-btn {
+        padding-bottom: 30px;
+    }
+
+    .tabs__content-btn button {
+        width: 242.74px;
+        height: 50px;
+    }
+    
+     .tabs__img {
+        display: none;
+    }
+    
+    .tabs__img img {
+       display: none;
+    }
+}

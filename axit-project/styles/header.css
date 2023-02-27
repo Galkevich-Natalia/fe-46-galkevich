@@ -14,7 +14,6 @@
 }
 
 .header__wrapper {
-    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,19 +44,7 @@
 }
 
 .header__nav a:hover {
-    color:#807878;
-}
-
-
-@media screen and (max-width: 320px) {
-
-    .header {
-        height: 56px;
-    }
-
-    .header__container {
-        max-width: 288px;
-    }
+    color:#ce5656;
 }
 
 @media screen and (max-width: 1024px) {
@@ -70,5 +57,26 @@
     .header__nav {
         max-width: 566px;
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .header {
+        height: 56px;
+    }
+
+    .header__container {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+    
+    .header__logo {
+        max-width: 130px;
+        max-height: 56px;
+    }
+
+    .header__nav a {
+        display: none;
     }
 }

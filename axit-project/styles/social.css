@@ -16,10 +16,8 @@
 }
 
 .social__title {
-    width: 470px;
-    display: flex;
-    align-items: center;
-    padding: 18px 0;
+    max-width: 470px;
+    padding: 13.5px 0;
 }
 
 .social__title h2 {
@@ -32,11 +30,11 @@
 }
 
 .social__description {  
-    width: 470px;
+    max-width: 470px;
+    padding: 18px 0;
 }
 
 .social__description h5 {
-    padding: 14px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -47,15 +45,21 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
+    padding: 26px 0 15px 0;
 }
 
 .social-logos a {
-    width: 70px;
-    height: 70px;
-    margin-right: 35px;
-    margin-left: 30px;
-    
+    max-width: 70px;
+    max-height: 70px;
+    margin: 0 15px;
+}
+
+.social-logos a:first-child {
+    margin-left: 0;
+}
+
+.social-logos a:last-child {
+    margin-right: 0;
 }
 
 .social-logos a:hover {
@@ -72,8 +76,9 @@
     }
 
     .social__title {
-        width: 402px;
+        max-width: 402px;
         padding: 10px 0;
+        margin-top: 2px;
     }
 
     .social__title h2 {
@@ -82,11 +87,11 @@
     }
 
     .social__description {  
-        width: 402px;
+        max-width: 402px;
+        padding: 13px 0;
     }
 
     .social__description h5 {
-        padding: 13px 0;
         font-weight: 400;
         font-size: 14px;
         line-height: 16.44px;
@@ -94,6 +99,57 @@
     }
 
     .social-logos a {
-        margin: 0 23px;
+        max-width: 64px;
+        max-height: 64px;
+        margin: 0 8.5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .social {
+        height: 239px;
+    }
+
+    .social__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social__text {
+        text-align: center;
+    }
+
+    .social__title {
+        max-width: 287px;
+        padding: 10px 0;
+        margin-top: 31px;
+    }
+
+    .social__title h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .social__description {  
+        max-width: 271px;
+        padding: 13px 0 16px 0;
+    }
+
+    .social__description h5 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.44px;
+        color: #86878B;
+    }
+
+    .social-logos {
+        padding: 16px 0 44px 0;
+    }
+
+    .social-logos a {
+        min-width: 26px;
+        min-height: 26px;
+        margin: 0 8.5px;
     }
 }
