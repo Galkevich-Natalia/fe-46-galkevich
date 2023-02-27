@@ -20,10 +20,18 @@
 }
 
 .footer-logos a {
-    width: 53.2px;
-    height: 53.2px;
-    margin-right: 33px;
+    max-width: 53.2px;
+    max-height: 53.2px;
+    margin: 0 15px;
     color: #CCCCCC;
+}
+
+.footer-logos a:first-child {
+    margin-left: 0;
+}
+
+.footer-logos a:last-child {
+    margin-right: 0;
 }
 
 .footer-logos a:hover {
@@ -48,9 +56,9 @@
 @media screen and (max-width: 1024px) {
 
     .footer-logos a {
-        width: 45px;
-        height: 45px;
-        margin-right: 33px;
+        max-width: 45px;
+        max-height: 45px;
+        margin: 0 13.5px;
         color: #CCCCCC;
     }
 
@@ -63,3 +71,17 @@
         line-height: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .footer-logos a {
+        max-width: 26px;
+        max-height: 26px;
+        margin: 0 8.5px;
+    }
+
+    .footer-text {
+        padding: 42px 0 45px 0;
+    }
+}
+
