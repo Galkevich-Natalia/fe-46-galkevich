@@ -87,7 +87,8 @@
 }
 
 .card__text {
-    padding: 8px 10px 0 10px;
+    margin-top: 8px;
+    padding: 0 10px 0 10px;
 
 }
 
@@ -99,10 +100,10 @@
     color: #000000;
 }
 
-
 @media screen and (max-width: 1024px) {
+
     .about__wrapper {
-        padding-bottom: 68px;
+        padding-bottom: 60px;
     }
 
     .about__title {
@@ -126,9 +127,9 @@
         font-size: 14px;
         line-height: 16px;
     }
-
+    
     .about__cards {
-        padding: 0 0 0 38px;
+        padding: 0 0 0 0;
     }
 
     .about__card {
@@ -170,8 +171,65 @@
     }
 
     .card__text {
-        padding: 9px 10px 0 10px;
+        margin-top: 9px;
+    }
 
+    .card__text h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about__wrapper {
+        padding-bottom: 60px;
+    }
+
+    .about__title {
+        padding: 54.5px 0;
+    }
+
+    .about__title h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .divider {
+        width: 134px;
+    }
+
+    .about__subtitle {
+        padding: 25px 0 40px 0;
+    }
+    
+    .about__subtitle h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .about__cards {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 0;
+    }
+    
+    .about__card {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .card__title {
+        padding: 29px 0;
+    }
+    
+    .card__title h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .card__text {
+        margin-top: 9px;
+        padding: 0 0 0 0;
     }
 
     .card__text h5 {

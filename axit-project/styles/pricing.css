@@ -181,3 +181,60 @@
 
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .pricing__title {
+        padding: 54.5px 0;
+    }
+
+    .pricing__title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .divider {
+        width: 134px;
+    }
+
+    .pricing__description {
+        padding: 24px 0 24px 0;
+    }
+
+    .pricing__description h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .pricing__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing__card {
+        width: 100%;
+        padding: 0 0 27px 0;
+    }
+
+    .card__tariff {
+        height: 47.06px;
+    }
+
+    .card__price {
+        height: 78.43px;
+    }
+
+    .card__time {
+        height: 39.22px;
+    }
+
+    .card__body li {
+        height: 39.22px;
+
+    }
+
+    .pricing__card:hover {
+        padding: 17.74px 0;
+
+    }
+}
