@@ -9,15 +9,21 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
-    .container {
-        max-width: 288px;
-        margin: 0 16px;
-    }
+
+section {
+    padding: 0 15px;     
 }
+
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 992px;
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 288px;
         margin: 0 16px;
     }
 }

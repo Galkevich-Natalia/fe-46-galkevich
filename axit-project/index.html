@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="header">
-        <div class="header__container">
+        <div class="container">    
             <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="#banner-main"><img class="header__logo" src="./images/header-logo.png" alt="header__logo"></a>
@@ -21,11 +21,14 @@
                     <a class="header__reviews" href="#reviews">Reviews</a>
                     <a class="header__contact" href="#contact">Contact</a>
                 </div>
+                <div class="header__menu">
+                    <img src="./images/menu.png" alt="header__menu">
+                </div>
             </div>
         </div>
     </section>
     <section id="banner-main" class="banner-main">
-        <div class="banner-main__container">
+        <div class="container">   
             <div class="banner-main__wrapper">
                <div class="banner-main__content">
                     <div class="banner-main__logo">
@@ -42,7 +45,7 @@
                </div>
                <form class="banner-main__form">
                     <div class="banner-main__form-title">
-                        <h4>Try Your <span class="free"> FREE </span> Trial Today</h4>
+                        <h4>Try Your <span class="free">FREE</span> Trial Today</h4>
                     </div>
                     <div class="banner-main__form-data">    
                         <input type="text" placeholder="Name">
@@ -343,18 +346,12 @@
                     </div>
                 </div>
                 <div class="reviews__button-container">
-                    <div class="form_radio">
-                        <input id="radio-1" type="radio" name="radio" value="1" checked>
-                        <label for="radio-1"></label>
-                    </div>
-                    <div class="form_radio">
-                        <input id="radio-2" type="radio" name="radio" value="2">
-                        <label for="radio-2"></label>
-                    </div>
-                    <div class="form_radio">
-                        <input id="radio-3" type="radio" name="radio" value="3">
-                        <label for="radio-3"></label>
-                    </div>
+                    <input class="radio" name="slide" type="radio" id="slide1" value="slide1">
+                    <label for="slide1"></label>
+                    <input class="radio" name="slide" type="radio" id="slide2" value="slide2" checked>
+                    <label for="slide2"></label>
+                    <input class="radio" name="slide" type="radio" id="slide3" value="slide3">
+                    <label for="slide3"></label>  
                 </div>    
             </div>
         </div>

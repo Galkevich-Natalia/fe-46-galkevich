@@ -52,7 +52,6 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-
 @media screen and (max-width: 1024px) {
 
     .footer-logos a {
@@ -84,4 +83,3 @@
         padding: 42px 0 45px 0;
     }
 }
-
