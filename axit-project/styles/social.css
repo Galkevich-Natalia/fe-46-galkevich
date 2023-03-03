@@ -105,10 +105,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 786px) {
     .social {
-        height: 239px;
+        height: 280px;
     }
 
     .social__wrapper {
@@ -146,6 +145,9 @@
     .social-logos {
         padding: 16px 0 44px 0;
     }
+}
+
+@media screen and (max-width: 320px) {
 
     .social-logos a {
         min-width: 26px;
