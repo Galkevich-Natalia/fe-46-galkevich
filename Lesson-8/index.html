@@ -19,11 +19,11 @@
                         <h1>Забыли пароль?</h1>
                     </div>
                     <div class="password-recovery__form-input">
-                        <input type="email" placeholder="Введите ваш E-mail">
+                        <input type="email" required placeholder="Введите ваш E-mail">
                         <label>На E-mail придет письмо со ссылкой на смену пароля</label>
                     </div>    
                     <div class="password-recovery__form-btn">
-                        <button>Отправить</button>
+                        <button type="submit">Отправить</button>
                     </div>
                 </form>
             </div>
@@ -37,15 +37,15 @@
                          <h2>Оставьте свой отзыв на “Ароматическое саше”</h2>
                     </div>
                     <div class="reviews__form-message">    
-                        <textarea type="text" placeholder="Ваш отзыв*"></textarea>
+                        <textarea type="text" required placeholder="Ваш отзыв*"></textarea>
                     </div>
                     <div class="reviews__form-input">
-                        <input required type="text" placeholder="Имя*">
-                        <input required type="tel" placeholder="Телефон*">
+                        <input type="text" required placeholder="Имя*">
+                        <input type="tel" required placeholder="Телефон*">
                         <input type="email" placeholder="Email">
                     </div>
                     <div class="reviews__form-send">
-                        <button class="reviews__form-send-btn">Отправить</button>
+                        <button class="reviews__form-send-btn" type="submit">Отправить</button>
                         <div class="reviews__form-send-checkbox">
                             <input type="checkbox" id="reviews">
                             <label for="reviews">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
