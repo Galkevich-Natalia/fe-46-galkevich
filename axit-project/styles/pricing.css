@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .pricing__title {
@@ -142,10 +142,6 @@
         font-size: 24px;
         line-height: 28px;
     }
-    
-    .divider {
-        width: 142px;
-    }
 
     .pricing__description {
         padding: 31px 0 16px 0;
@@ -194,10 +190,6 @@
         line-height: 28px;
     }
 
-    .divider {
-        width: 134px;
-    }
-
     .pricing__description {
         padding: 24px 0 24px 0;
     }
@@ -237,11 +229,6 @@
 
     .card__body li {
         height: 39.22px;
-
-    }
-
-    .pricing__card:hover {
-        padding: 17.74px 0;
 
     }
 }

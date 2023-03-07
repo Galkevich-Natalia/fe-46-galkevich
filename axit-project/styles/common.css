@@ -9,15 +9,34 @@ body {
     margin: 0 auto;
 }
 
-
 section {
     padding: 0 15px;     
 }
 
+.divider {
+    display: block;
+    width: 170px;
+	border: 1px solid #EC7979;
+}
+
 @media screen and (max-width: 1024px) {
+    section {
+        padding: 0 0;     
+    }
+
     .container {
         max-width: 992px;
         margin: 0 16px;
+    }
+
+    .divider {
+        width: 142px;
+    }
+}
+
+@media scree and (max-width: 786px) {
+    .divider {
+        width: 134px;
     }
 }
 
@@ -25,5 +44,9 @@ section {
     .container {
         max-width: 288px;
         margin: 0 16px;
+    }
+
+    .divider {
+        width: 134px;
     }
 }

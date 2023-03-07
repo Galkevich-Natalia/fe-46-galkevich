@@ -18,14 +18,12 @@
 	color: #000000;
 }
 
-.divider {
-    display: block;
-    width: 170px;
-    border: 1px solid #EC7979;
+.contact .divider {
+	margin: 0 auto;
 }
 
 .contact__description {
-	padding: 40px 0 40px 0;
+	padding: 40px 0;
 }
 
 .contact__description h5 {
@@ -42,7 +40,7 @@
 .contact__form {
 	display: flex;
 	width: 100%;
-	padding-top: 47px;
+	padding: 49px 0 0 0;
 }
 
 .contact__data {
@@ -95,6 +93,7 @@
 
 .contact__btn {
 	padding: 50px 0 30px 0;
+	margin: 0 auto;
 }
 
 .contact__btn button {
@@ -123,13 +122,9 @@
         font-size: 24px;
         line-height: 28px;
     }
-    
-    .divider {
-        width: 142px;
-    }
 
     .contact__description {
-        padding: 32px 0 16px 0;
+        padding: 32px 0;
     }
     
     .contact__description h5 {
@@ -138,7 +133,7 @@
     }
 
 	.contact__form {
-		padding-top: 40px;
+		padding: 40px 0 0 0;
 	}
 
 	.contact__data {
@@ -151,39 +146,15 @@
 }
 
 @media screen and (max-width: 786px) {
-	.contact__form {
-		flex-direction: column;
+
+	.contact__description {
+        padding: 24px 0;
+    }
+
+	.contact__body {
+		padding: 0 25px;
 	}
 
-	.contact__message textarea {
-		width: 100%;
-		height: 182px;
-		margin-top: 50px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.contact__title {
-        padding: 54.5px 0;
-    }
-
-    .contact__title h2 {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    
-    .divider {
-        width: 134px;
-    }
-
-    .contact__description {
-        padding: 24px 0 24px 0;
-    }
-    
-    .contact__description h5 {
-        font-size: 14px;
-        line-height: 16px;
-    }
 	.contact__form {
 		flex-direction: column;
 	}
@@ -197,8 +168,50 @@
 		height: 182px;
 		margin-top: 50px;
 	}
-	
+
 	.contact__btn button {
-		max-width: 100%;
+		width: 288px;
+	}	
+}
+
+@media screen and (max-width: 400px) {
+	.contact__body {
+		padding: 0 0;
 	}
+}
+
+@media screen and (max-width: 360px) {
+	.container {
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+	.contact__title {
+        padding: 54.5px 0;
+    }
+
+    .contact__title h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contact__description h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+	.contact__form {
+		flex-direction: column;
+	}
+
+	.contact__message textarea {
+		width: 100%;
+		height: 182px;
+		margin-top: 50px;
+	}
+
+	.contact__btn button {
+		width: 100%;
+		margin: 0 auto;
+	}	
 }

@@ -7,12 +7,6 @@
 .social__wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-.social__text {
-    text-align: start;
 }
 
 .social__title {
@@ -44,7 +38,6 @@
 .social-logos {
     display: flex;
     align-items: center;
-    text-align: center;
     padding: 26px 0 15px 0;
 }
 
@@ -111,8 +104,8 @@
     }
 
     .social__wrapper {
-        display: flex;
         flex-direction: column;
+        align-items: center;
     }
     
     .social__text {
@@ -144,6 +137,17 @@
 
     .social-logos {
         padding: 16px 0 44px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .social {
+        height: 239px;
+    }
+
+    .social-logos {
+        padding: 16px 0 0 0;
     }
 }
 

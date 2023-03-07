@@ -1,7 +1,7 @@
 
 .banner-main {
     width: 100%;
-    background: rgba(0, 0, 0, 0.5) url(/axit-project/images/banner-main.png) 50%/cover;
+    background: rgba(0, 0, 0, 0.5) url(../images/banner-main.png) 50%/cover;
     background-blend-mode: darken;
 }
 
@@ -26,10 +26,8 @@
     color: #FFFFFF;   
 }
 
-.banner-main__divider {
-    display: block;
-    width: 170px;
-    border: 1px solid  #FFFFFF;
+.banner-main .divider {
+    border: 1px solid #FFFFFF; 
 }
 
 .banner-main__description {
@@ -74,12 +72,13 @@
     position: relative;
 }
 
-.banner-main__form .free {
+.banner-main__form-title .free {
     color: #EC7979;
 }
 
 .banner-main__form-title h4 {
-    margin: 28px 0 40px 0;
+    padding: 28px 0 40px 0;
+    margin-bottom: 33px;
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
@@ -88,26 +87,26 @@
     color: #333333;
 }
 
-.banner-main__form input {
-	width: 370px;
-	padding-top: 49px;
-	align-items: flex-end; 
-	border: none;
-	border-bottom: 1px solid #BDBDBD;
-	background-color: transparent;
-	color: inherit;
-	outline: none;
+.banner-main__form-data input {
+    width: 370px;
+    height: 38px;
+    padding: 4px 0;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
 }
 
-.banner-main__form::placeholder {
-	align-items: flex-end;
+.banner-main__form-data input:nth-child(2) {
+    margin: 33px 0;
+}
+
+.banner-main__form-data input::placeholder {
+    font-style: normal;
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 19px;
 	color: #BDBDBD;
-    display: flex;
-    align-items: center;
 }
 
 .banner-main__form button {
@@ -155,7 +154,7 @@
         line-height: 42px;
     }
 
-    .banner-main__divider {
+    .banner-main .divider {
         width: 115.28px;
     }
 
@@ -179,7 +178,7 @@
     }
 
     .banner-main__form-title h4 {
-        margin: 28px 0 40px 0;
+        padding: 28px 0 40px 0;
         font-size: 18px;
         line-height: 24.51px;
     }
@@ -236,10 +235,6 @@
         font-size: 33px;
     }
 
-    .banner-main__divider {
-        width: 134px;
-    }
-
     .banner-main__description {
         padding: 42px 0;
     }
@@ -265,13 +260,14 @@
 }
 
 @media screen and (max-width: 450px) {
+    
     .banner-main .container {
         max-width: 288px;
         margin: 0 auto;
     }
 
     .banner-main__form-title h4 {
-        margin: 28px 0 40px 0;
+        padding: 28px 0 40px 0;
         font-family: 'Open Sans';
         font-weight: 700;
         font-size: 16px;
@@ -290,54 +286,10 @@
 }
 
 @media screen and (max-width: 320px) {
-
-    .banner-main__container {
+    
+    .banner-main .container {
         max-width: 288px;
         margin: 0 16px;
-    }
-
-    .banner-main__wrapper {
-        padding: 84.12px 0 50px 0; 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .banner-main__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-right: 0;
-    }
-
-    .banner-main__logo {
-        display: none;
-    }
-
-    .banner-main__title {
-        padding: 0 0 43.88px 0;
-    }
-
-    .banner-main__title h1 {
-        max-width: 100%;
-        max-height: 168px;
-        font-size: 33px;
-    }
-
-    .banner-main__divider {
-        width: 134px;
-    }
-
-    .banner-main__description {
-        padding: 42px 0;
-    }
-
-    .banner-main__description h5 {
-        display: flex;
-        max-width: 100%;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
     }
 
     .banner-main__btn {
@@ -352,9 +304,6 @@
     }
 
     .banner-main__form-title h4 {
-        margin: 28px 0 40px 0;
-        font-family: 'Open Sans';
-        font-weight: 700;
         font-size: 14px;
         line-height: 19px;
     }
