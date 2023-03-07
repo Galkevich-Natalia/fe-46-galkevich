@@ -1,0 +1,96 @@
+
+.reviews {
+    background: #FBF7F6;
+}
+
+.reviews .container {
+    max-width: 1234px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.reviews__form-title {
+    padding: 34.04px 0 25px 0;
+}
+
+.reviews__form-title h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.reviews__form-message textarea {
+    width: 100%;
+    height: 188px;
+    padding: 18px 0 0 25px;
+    background: #F9F0EE;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.reviews__form-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.reviews__form-input input {
+    width: 387px;
+    height: 41px;
+    padding: 6px 0 0 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+    border: none;
+    background: #f2d5cf;
+    border-radius: 5px;
+    outline: none;
+}
+
+.reviews__form-send {
+    display: flex;
+}
+
+.reviews__form-send-btn {
+    width: 250px;
+    height: 63px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    background: #FFB0BA;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+}
+
+.reviews__form-send-btn:hover {
+    background: #fb7f90;
+}
+
+.reviews__form-send-checkbox {
+    padding: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews__form-send-checkbox input{
+    border: none;
+    background: #F9F0EE;
+    border-radius: 5px;
+    outline: none;
+}
+
+.reviews__form-send-checkbox label {
+    padding-left: 15px;
+}
+
